@@ -1,36 +1,28 @@
 # Automation Framework with Playwright and pytest
 
-## Setup local env
-### To setup env in Windows run following PowerShell script:
-```commandline
-setup_venv.ps1
-```
-
 ## Manual steps:
-### 1. Install poetry:
-Linux
+### 1. Install environment:
+
 ```bash
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-```
-Windows PowerShell
-```
-(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+run: |
+  python -m pip install --upgrade pip
+  pip install pipenv
+  pipenv install --system
+  playwright install chromium
 ```
 
-### 2. Create venv and activate it:
-
-Windows
+### 2. Run playwright tests:
+reopen terminal and run:
 ```bash
-python -m venv venv
-venv\Scripts\Activate.ps1''
-```
-Linux
-```bash
-python -m venv venv
-source venv/bin/activate
+pytest
 ```
 
-### 3. Install requirements:
+### 3. Run allure report:
 ```bash
-pip install -r requirements.txt
+allure serve reports
+```
+
+### 4. To run tests with HTML report:
+```bash
+pytest --template=html1/index.html --report=report.html
 ```
