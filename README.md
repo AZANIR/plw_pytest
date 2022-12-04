@@ -11,7 +11,7 @@ run: |
   playwright install chromium
 ```
 
-### 2. Run playwright tests:
+### 2. Run all playwright tests:
 reopen terminal and run:
 ```bash
 pytest
