@@ -35,9 +35,9 @@ jobs:
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v2
               with:
-                deploy_key: ${{ secrets.GITHUB_TOKEN }}
-                publish_branch: gh-pages  # default: gh-pages
-                publish_dir: allure-report
+                PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                PUBLISH_BRANCH: gh-pages  # default: gh-pages
+                PUBLISH_DIR: allure-report
             - name: Report Slack
               if: always()
               uses: ravsamhq/notify-slack-action@v2
