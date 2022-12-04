@@ -44,4 +44,4 @@ jobs:
                 message_format: ${{ secrets.GH_ACTION_URL }}
                 notify_when: 'success,failure'
               env:
-                SLACK_WEBHOOK_URK: ${{ secrets.ACTION_MONITORING_SLACK }}
+                SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
