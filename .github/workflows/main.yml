@@ -23,7 +23,7 @@ jobs:
               run: pytest
 
             - name: Allure Report actions
-              uses: simple-elf/allure-report-actiom@master
+              uses: simple-elf/allure-report-action@master
               if: always()
               with:
                 allure-results: reports
@@ -38,7 +38,7 @@ jobs:
                 PUBLISH_DIR: ./allure-history
             - name: Report Slack
               if: always()
-              uses: ravsamhg/notify-slack-action@v1
+              uses: ravsamhq/notify-slack-action@v2
               with:
                 status: ${{ job.status }}
                 message_format: ${{ secrets.GH_ACTION_URL }}
