@@ -1,0 +1,29 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 04 18:16:24 GMT 2022","Sun Dec 04 18:16:24 GMT 2022","796","tests","test_select_menu","TestSelect","","","test_select_menu[chromium]","Test to verify select menu functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
+"passed","Sun Dec 04 18:16:07 GMT 2022","Sun Dec 04 18:16:07 GMT 2022","268","tests","test_buttons","TestButtons","","","test_rmb_click_button[chromium]","Test to Verify rmb click button functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
+"passed","Sun Dec 04 18:16:17 GMT 2022","Sun Dec 04 18:16:17 GMT 2022","577","tests","test_radio_buttons","TestRadioButtons","","","test_radio_buttons[chromium]","Test to verify radio buttons functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
+"passed","Sun Dec 04 18:16:03 GMT 2022","Sun Dec 04 18:16:04 GMT 2022","866","tests","test_buttons","TestButtons","","","test_double_click_button[chromium]","Test to verify double click button functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
+"passed","Sun Dec 04 18:16:09 GMT 2022","Sun Dec 04 18:16:09 GMT 2022","283","tests","test_buttons","TestButtons","","","test_dynamic_button[chromium]","Test to Verify dynamic click button functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
+"passed","Sun Dec 04 18:16:29 GMT 2022","Sun Dec 04 18:16:29 GMT 2022","263","tests","test_text_boxes","TestTextBoxes","","","test_text_boxes[chromium]","Test to verify text boxes functionality
+            :param test_setup: setting up the browser and page object
+            :return: None
+            "
+"passed","Sun Dec 04 18:16:14 GMT 2022","Sun Dec 04 18:16:14 GMT 2022","650","tests","test_check_boxes","TestCheckBoxes","","","test_check_boxes[chromium]","Test to verify check boxes functionality
+        :param test_setup: setting up the browser and page object
+        :return: None
+        "
